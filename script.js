@@ -36,9 +36,11 @@ while (conf) {
 */
 
 //SOAL 5
-let guessedIt = prompt("Sebutkan kepanjangan dari nama IB?")
-let answer = 'Impact Byte'
+let guessedIt = prompt("Sebutkan kepanjangan dari nama IB?");
+let answer = 'Impact Byte';
+let i = 1;
 
 while(guessedIt!==answer){
-    guessedIt = prompt("Sebutkan kepanjangan dari nama IB?")
-}alert('Selamat jawaban kamu benar!!!')
+    guessedIt = prompt("Sebutkan kepanjangan dari nama IB?");
+    i++;
+}alert(`Selamat jawaban kamu benar!!! Percobaan ke-${i}`)
